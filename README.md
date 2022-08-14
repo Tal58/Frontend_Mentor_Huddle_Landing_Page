@@ -7,7 +7,7 @@
 <br><br>
 🎯 Your challenge is to build out this landing page and get it looking as close to the design as possible..
 <br><br>
-🔗 To see live version 🎯
+🔗 To see live version 🎯https://tal58.github.io/Frontend_Mentor_Huddle_Landing_Page/
 <br>
 <center> ⌛ Happy Coding  ✍ </center>
 <br><br>
