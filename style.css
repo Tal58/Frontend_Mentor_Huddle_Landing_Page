@@ -1,0 +1,495 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-image: url("images/bg-hero-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    padding: 5%;
+}
+
+.firstfloor {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.firstfloor a {
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: right;
+    cursor: pointer;
+    border-radius: 3vw;
+    background-color: white;
+    height: 1.8vw;
+    width: 12vw;
+    color: black;
+    text-decoration: none;
+    font-size: 1.4vw;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 0.5vw 0.5vw 0.5vw 0.5vw rgb(246, 248, 247);
+}
+
+.secondfloor {
+    width: 100%;
+}
+
+.headertext {
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    float: left;
+}
+
+.headertext p {
+    margin-top: 3%;
+}
+
+.Smallbuttonsheader2 {
+    margin-top: 7%;
+    height: 15vw;
+}
+
+.Smallbuttonsheader2 a {
+    text-decoration: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    cursor: pointer;
+    border-radius: 3vw;
+    background-color: rgb(247, 72, 247);
+    color: white;
+    text-decoration: none;
+    font-size: 1.4vw;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.headermockups {
+    float: right;
+    width: 50%;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.headermockups img {
+    float: right;
+    width: 100%;
+}
+
+.grow {
+    margin: 5%;
+    padding-right: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    border-radius: 1vw;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw rgb(221, 215, 215);
+    display: flex;
+}
+
+.growsubdiv {
+    width: 40%;
+    justify-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.growsubdiv h2 {
+    font-size: 1.4vw;
+}
+
+.growsubdiv p {
+    font-size: 1vw;
+    color: grey;
+}
+
+.growimage {
+    width: 60%;
+}
+
+.growimage img {
+    float: right;
+    width: 50%;
+    padding-right: 7%;
+}
+
+.flowing {
+    margin: 5%;
+    padding-right: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    border-radius: 1vw;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw rgb(221, 215, 215);
+    display: flex;
+}
+
+.flowingimage {
+    width: 60%;
+}
+
+.flowingimage img {
+    float: left;
+    width: 50%;
+}
+
+.flowingsubdiv {
+    width: 40%;
+    justify-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.flowingsubdiv h2 {
+    font-size: 1.4vw;
+}
+
+.flowingsubdiv p {
+    font-size: 1vw;
+    color: grey;
+}
+
+.users {
+    margin: 5%;
+    padding-right: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    border-radius: 1vw;
+    box-shadow: 0.2vw 0.2vw 0.2vw 0.2vw rgb(221, 215, 215);
+    display: flex;
+}
+
+.subdiv3 {
+    width: 40%;
+    justify-items: center;
+    align-self: center;
+    justify-content: center;
+}
+
+.subdiv3 h2 {
+    font-size: 1.4vw;
+}
+
+.subdiv3 p {
+    font-size: 1vw;
+    color: grey;
+}
+
+.usersimage {
+    width: 60%;
+}
+
+.usersimage img {
+    float: right;
+    width: 50%;
+    padding-right: 7%;
+}
+
+.ready {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    margin-bottom: -5%;
+    padding-right: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    border-radius: 1vw;
+    box-shadow: 0.1vw 0.1vw 0.1vw 0.1vw rgb(221, 215, 215);
+    display: flex;
+    position: relative;
+    z-index: 5;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.ready a {
+    margin-top: 5%;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 3vw;
+    width: 15vw;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 7%;
+    padding-right: 7%;
+    background-color: rgb(247, 72, 247);
+    color: white;
+    text-decoration: none;
+    font-size: 1.4vw;
+    text-align: center;
+
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    display: inline-flex;
+    width: 100%;
+}
+
+.huddle {
+    width: 30%;
+    margin: 5%;
+}
+
+#huddleimg {
+    filter: invert(100%);
+}
+
+.subfooter1 {
+    margin: 10%;
+    width: 40%;
+}
+
+.subfooter1 nav {
+    padding: 3%;
+}
+
+.nav1 a {
+    margin-right: 27%;
+
+}
+
+.nav2 a {
+    margin-right: 20%;
+}
+
+.nav3 a {
+    margin-right: 35%;
+}
+
+.subfooter1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.subfooter2 {
+    width: 30%;
+    padding-top: 10%;
+
+}
+
+.subfooter2 a {
+    text-decoration: none;
+    color: white;
+    height: 3vw;
+    padding-right: 2%;
+}
+
+.subfooter2 p {
+    margin-top: 10%;
+    font-size: 0.8vw;
+}
+
+@media all and (max-width: 700px) {
+
+    header {
+        background-image: url("images/bg-hero-mobile.svg");
+    }
+
+    .firstfloor img {
+        width: 25%;
+    }
+
+    .firstfloor a {
+        width: 25%;
+        font-size: 3vw;
+        padding-bottom: 4%;
+    }
+
+    .secondfloor {
+        font-size: 3vw;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .Smallbuttonsheader2 {
+        margin-top: 10%;
+    }
+
+    .secondfloor a {
+        font-size: 3vw;
+        border-radius: 4vw;
+        padding-left: 13%;
+        padding-right: 13%;
+    }
+
+    .headermockups {
+        margin-top: 10%;
+        float: none;
+        width: 100%;
+    }
+
+    .headermockups img {
+        float: none;
+        width: 85%;
+    }
+
+    .headertext {
+        text-align: center;
+        float: none;
+        width: 100%;
+    }
+
+    .grow {
+        padding-left: 0;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .growimage {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .growimage img {
+        width: 85%;
+        float: none;
+    }
+
+    .growsubdiv {
+        width: 100%;
+    }
+
+    .growsubdiv h2 {
+        font-size: 3vw;
+
+    }
+
+    .growsubdiv p {
+        font-size: 3vw;
+    }
+
+    .flowing {
+        flex-direction: column;
+        text-align: center;
+        padding-left: 0;
+
+    }
+
+    .flowingimage {
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    .flowingimage img {
+        float: none;
+        width: 85%;
+    }
+
+    .flowingsubdiv {
+        width: 100%;
+    }
+
+    .flowingsubdiv h2 {
+        margin-bottom: 5%;
+        font-size: 3vw;
+
+    }
+
+    .flowingsubdiv p {
+        font-size: 3vw;
+    }
+
+    .users {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .usersimage {
+        width: 100%;
+    }
+
+    .usersimage img {
+        width: 85%;
+        float: none;
+        margin-bottom: 10%;
+    }
+
+    .subdiv3 {
+        width: 100%;
+    }
+
+    .subdiv3 h2 {
+        margin-bottom: 5%;
+        font-size: 3vw;
+
+    }
+
+    .subdiv3 p {
+        font-size: 3vw;
+    }
+
+    .ready {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .ready h1 {
+        font-size: 4vw;
+
+    }
+
+    .ready a {
+        font-size: 3vw;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        padding-left: 12%;
+        padding-right: 12%;
+        width: 35vw;
+        border-radius: 5vw;
+    }
+
+    footer {
+        padding-top: 10%;
+        flex-direction: column;
+        margin: 0;
+        height: 265vw;
+    }
+
+    .huddle {
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 80%;
+        font-size: 3vw;
+    }
+    #huddleimg{
+        width: 60%;
+    }
+    .subfooter1 {
+        float: left;
+        width: 40%;
+    }
+
+    .subfooter2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .subfooter2 p {
+        font-size: 3vw;
+    }
+
+}
