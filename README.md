@@ -16,7 +16,7 @@
 
 ## 🖥️Desktop version
 <br>
-<img src="images/desktopversion.gif" width="400" height="400" align="left" alt="desktop_version">
+<img src="images/desktopversion.gif" width="500" height="400" align="left" alt="desktop_version">
 <br>
 <br>
 <br>
