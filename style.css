@@ -51,9 +51,12 @@ header {
     width: 50%;
     float: left;
 }
-
+.headertext h1{
+    font-size: 2.3vw;
+}
 .headertext p {
     margin-top: 3%;
+    font-size: 1.2vw;
 }
 
 .Smallbuttonsheader2 {
@@ -349,6 +352,12 @@ footer {
         float: none;
         width: 100%;
     }
+    .headertext h1{
+        font-size: 5vw;
+    }
+    .headertext p{
+        font-size: 2.8vw;
+    }
 
     .grow {
         padding-left: 0;
@@ -371,12 +380,13 @@ footer {
     }
 
     .growsubdiv h2 {
-        font-size: 3vw;
+        font-size: 4.5vw;
 
     }
 
     .growsubdiv p {
         font-size: 3vw;
+        
     }
 
     .flowing {
@@ -402,7 +412,7 @@ footer {
 
     .flowingsubdiv h2 {
         margin-bottom: 5%;
-        font-size: 3vw;
+        font-size: 4.5vw;
 
     }
 
@@ -432,7 +442,7 @@ footer {
 
     .subdiv3 h2 {
         margin-bottom: 5%;
-        font-size: 3vw;
+        font-size: 4.5vw;
 
     }
 
@@ -474,9 +484,11 @@ footer {
         width: 80%;
         font-size: 3vw;
     }
-    #huddleimg{
+
+    #huddleimg {
         width: 60%;
     }
+
     .subfooter1 {
         float: left;
         width: 40%;
